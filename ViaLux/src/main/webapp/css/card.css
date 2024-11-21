@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(254, 254, 254);
+    cursor: default;
+}
+
+main h1{
+    margin-bottom: 12px;
+}
+main h3{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Arapey", serif;
+    font-size: 28px;
+}
+
+
+.card-container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+
+.card{
+    background-color: white;
+    box-shadow: 0 8px 10px -6px rgb(72, 72, 72);;
+    width: 300px;
+    height: 460px;
+    padding: 14px;
+    margin: 15px;
+    margin-bottom: 28px;
+    cursor: pointer;
+    object-fit: cover;
+    transition: all 1s;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all.5s;
+}
+
+.card img{
+    width: 100%;
+}
+
+.text-content a{
+    text-decoration: none;
+    color: rgb(47, 47, 54);
+    margin-bottom: 4px;
+}
+
+.card .text-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+.card .text-content button{
+    width: 40%;
+    padding: 8px;
+}
+
+.card p{
+    margin-bottom: 12px;
+}
+.card span{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
